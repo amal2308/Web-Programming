@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>HTML5 Elements Example</title>
+</head>
+<body style="font-family: Arial, sans-serif; background-color: aliceblue;">
+    <h2>HTML5 Elements Form</h2>
+    <label for="textbox">Text Box:</label><br>
+    <input type="text" id="textbox" name="textbox" placeholder="Enter your name" required style="width: 300px;"><br><br>
+    <fieldset style="border: 2px solid blue;">
+        <legend style="color: blue;">Choose a Gender:</legend>
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" value="male" checked>
+        <br>
+        <label for="female">Female</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <br>
+        <label for="other">Other</label>
+        <input type="radio" id="other" name="gender" value="other">
+    </fieldset><br>
+    <fieldset style="border: 2px solid green;">
+        <legend style="color: green;">Select Hobbies:</legend>
+        <label for="sports">Sports</label>
+        <input type="checkbox" id="sports" name="hobbies" value="sports">
+        <br>
+        <label for="music">Music</label>
+        <input type="checkbox" id="music" name="hobbies" value="music">
+        <br>
+        <label for="reading">Reading</label>
+        <input type="checkbox" id="reading" name="hobbies" value="reading">
+    </fieldset><br>
+    <label for="fruits">Select a Fruit:</label><br>
+    <select id="fruits" name="fruits" size="3">
+        <option value="apple">Apple</option>
+        <option value="banana">Banana</option>
+        <option value="orange">Orange</option>
+        <option value="grape">Grape</option>
+        <option value="mango">Mango</option>
+    </select><br><br>
+    <label for="colors">Choose a Color:</label><br>
+    <select id="colors" name="colors" style="width: 200px;">
+        <option value="red">Red</option>
+        <option value="blue">Blue</option>
+        <option value="green">Green</option>
+        <option value="yellow">Yellow</option>
+    </select><br><br>
+
+    <label for="comments">Comments:</label><br>
+    <textarea id="comments" name="comments" rows="4" cols="50" placeholder="Enter your comments"></textarea><br><br>
+
+    <label for="cities">Enter a City:</label><br>
+    <input list="cities" id="city" name="city" placeholder="Choose or type a city">
+    <datalist id="cities">
+        <option value="New York">
+        <option value="London">
+        <option value="Paris">
+        <option value="Tokyo">
+        <option value="Sydney">
+    </datalist><br><br>
+
+    <button type="submit" style="background-color: blue; color: white;">Submit</button>
+    
+</body>
+</html>
